@@ -24,7 +24,8 @@ Open Terminal and run the commands below:
 # Running the Notebook
 After cloning the repository, run the commands below:
 - `cd Twitter-archive`
-- `conda env create -f environment.yaml`
+- `conda env create -f environment.yaml` (For the conda environment)
+- `pip install -r requirements.txt` (For the pip environment)
 - `conda activate wines`
 - `jupyter notebook`
 
